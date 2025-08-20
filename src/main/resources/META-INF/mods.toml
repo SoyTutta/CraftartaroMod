@@ -1,0 +1,39 @@
+
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="craftartaro"
+version="1.20.1-1.0"
+displayName="Craftartaro"
+
+# updateJSONURL=""
+logoFile="logo.png"
+logoBlur=false
+credits="Reis, SoyTutta;"
+authors="SoyTutta"
+description="Adiciones que no pudieron ser agregadas con datapacks"
+
+[[dependencies.craftartaro]]
+modId="forge"
+mandatory=true
+versionRange="[41.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+# Dependencia con Ice and Fire
+[[dependencies.craftartaro]]
+modId="iceandfire"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+# Dependencia con Whaleborne
+[[dependencies.craftartaro]]
+modId="whaleborne"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
