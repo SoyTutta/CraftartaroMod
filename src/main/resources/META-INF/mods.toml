@@ -37,3 +37,11 @@ mandatory=true
 versionRange="[0,)"
 ordering="AFTER"
 side="BOTH"
+
+# Dependencia con Whaleborne
+[[dependencies.craftartaro]]
+modId="cataclysm"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

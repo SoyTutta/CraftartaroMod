@@ -5,7 +5,14 @@
   "refmap": "craftartaro.refmap.json",
   "mixins": [
     "SeaSerpentEntityMixin",
-    "GuardianEntityMixin"
+    "GuardianEntityMixin",
+    "DrownedEntityMixin",
+    "CoralGolemEntityMixin",
+    "DeeplingEntityMixin",
+    "DeeplingAnglerEntityMixin",
+    "DeeplingBruteEntityMixin",
+    "DeeplingPriestEntityMixin",
+    "DeeplingWarlockAnglerEntityMixin"
   ],
   "client": [
   ],
