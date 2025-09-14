@@ -30,9 +30,17 @@ versionRange="[0,)"
 ordering="AFTER"
 side="BOTH"
 
-# Dependencia con Whaleborne
+# Dependencia con Grimoire of Gaia
 [[dependencies.craftartaro]]
-modId="whaleborne"
+modId="grimoireofgaia"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+# Dependencia con Cataclysm
+[[dependencies.craftartaro]]
+modId="cataclysm"
 mandatory=true
 versionRange="[0,)"
 ordering="AFTER"
@@ -40,7 +48,7 @@ side="BOTH"
 
 # Dependencia con Whaleborne
 [[dependencies.craftartaro]]
-modId="cataclysm"
+modId="whaleborne"
 mandatory=true
 versionRange="[0,)"
 ordering="AFTER"

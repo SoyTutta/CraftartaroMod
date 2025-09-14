@@ -68,8 +68,9 @@ public class UniversalAvoidEntityGoal<T extends LivingEntity> extends Goal {
         if (this.toAvoid == null) return false;
 
         PathNavigation nav = this.mob.getNavigation();
-        final int maxTries = 10;
-        double[] distanceFactors = {1.0, 0.75, 0.5, 0.25};
+
+        final int maxTries = 3;
+        double[] distanceFactors = {1.0, 0.5, 0.25};
         double distToAvoid = this.mob.distanceTo(this.toAvoid);
         double urgencyFactor = Math.min(1.0, 1.0 - distToAvoid / this.maxDist);
 
@@ -163,5 +164,10 @@ public class UniversalAvoidEntityGoal<T extends LivingEntity> extends Goal {
             }
         }
         return null;
+    }
+
+    @Override
+    public boolean requiresUpdateEveryTick() {
+        return false;
     }
 }

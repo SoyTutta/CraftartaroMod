@@ -16,10 +16,10 @@ public abstract class DeeplingEntityMixin {
     private void addFearHullbackGoal(CallbackInfo ci) {
         PathfinderMob mob = (PathfinderMob) (Object) this;
 
-        mob.goalSelector.addGoal(1, new UniversalAvoidEntityGoal<>(
+        mob.goalSelector.addGoal(0, new UniversalAvoidEntityGoal<>(
                 mob,
                 HullbackEntity.class,
-                32.0F,
+                48.0F,
                 1.0D,
                 1.2D
         ));

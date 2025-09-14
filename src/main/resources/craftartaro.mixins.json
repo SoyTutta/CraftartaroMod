@@ -4,15 +4,16 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "craftartaro.refmap.json",
   "mixins": [
-    "SeaSerpentEntityMixin",
-    "GuardianEntityMixin",
-    "DrownedEntityMixin",
+    "CecaeliaEntityMixin",
     "CoralGolemEntityMixin",
-    "DeeplingEntityMixin",
     "DeeplingAnglerEntityMixin",
     "DeeplingBruteEntityMixin",
+    "DeeplingEntityMixin",
     "DeeplingPriestEntityMixin",
-    "DeeplingWarlockAnglerEntityMixin"
+    "DeeplingWarlockAnglerEntityMixin",
+    "DrownedEntityMixin",
+    "GuardianEntityMixin",
+    "SeaSerpentEntityMixin"
   ],
   "client": [
   ],
