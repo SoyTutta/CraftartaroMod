@@ -12,6 +12,7 @@
     "DeeplingPriestEntityMixin",
     "DeeplingWarlockAnglerEntityMixin",
     "DrownedEntityMixin",
+    "FreezeMixin",
     "GuardianEntityMixin",
     "SeaSerpentEntityMixin"
   ],

@@ -141,6 +141,9 @@ dependencies {
     implementation fg.deobf("curse.maven:lendercataclysm-551586:6906993")
     implementation fg.deobf("curse.maven:curios-309927:6418456")
     implementation fg.deobf("curse.maven:lionfish-api-1001614:5922047")
+    /// Aquamirae
+    implementation fg.deobf("curse.maven:ob-aquamirae-536254:4616373")
+    implementation fg.deobf("curse.maven:obscure-api-638417:4616364")
 
     //// Comodidades
     // Run Only
